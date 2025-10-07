@@ -321,6 +321,10 @@ footer {
     flex-direction: column;
     gap: 20px; /* Stack items vertically */
   }
+  nav a{
+      padding: 5px 10px;
+  }
+
 
   .hero h1 {
     font-size: 30px; /* Resize hero heading */
