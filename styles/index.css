@@ -71,7 +71,7 @@ nav a:hover {
 .heroParagraph {
   max-width: 900px;
   background-color: rgba(43, 28, 11, 0.6);
-  color: #f7ecd0;
+  color: hsl(43, 71%, 89%);
   padding: 30px 40px;
   border-radius: 10px;
   line-height: 1.8;
@@ -314,3 +314,24 @@ footer {
   border-top: 1px solid rgba(212, 175, 55, 0.3);
 }
 
+
+/* For mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  .destination-container {
+    flex-direction: column;
+    gap: 20px; /* Stack items vertically */
+  }
+
+  .hero h1 {
+    font-size: 30px; /* Resize hero heading */
+  }
+
+  .destination-container img {
+    height: 150px;
+  }
+
+  .heroParagraph {
+    font-size: 14px;
+    padding: 15px 20px;
+  }
+}

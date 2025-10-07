@@ -164,5 +164,32 @@ footer {
   letter-spacing: 0.5px;
   border-top: 1px solid rgba(212, 175, 55, 0.3);
 }
+/* For mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  /* Hero section */
+  .hero h1 {
+    font-size: 28px; /* Smaller title on mobile */
+  }
 
+  /* My Story section */
+  .myStory h2 {
+    font-size: 28px; /* Smaller title */
+  }
 
+  .travelPhilosophy {
+    flex-direction: column; /* Stack items vertically */
+  }
+
+  .travelPhilosophy > div {
+    flex-basis: 80%; /* Full width on small screens */
+    margin: 10px auto; /* Centered with margin */
+  }
+
+  .hero p {
+    font-size: 14px; /* Adjust paragraph size */
+  }
+
+  .myStory p {
+    font-size: 13px; /* Adjust paragraph size */
+  }
+}
