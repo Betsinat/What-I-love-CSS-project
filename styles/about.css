@@ -36,7 +36,7 @@ nav a:hover {
 .hero {
   position: relative;
   width: 100%;
-  height: 100vh;        /* full screen height */
+  height: 100vh;       
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -52,9 +52,9 @@ nav a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;          /* keeps proportions */
-  filter: brightness(60%) sepia(25%) contrast(1.1); /* antique feel */
-  z-index: -1;                /* puts it behind text */
+  object-fit: cover;          
+  filter: brightness(60%) sepia(25%) contrast(1.1);
+  z-index: -1;               
 }
 
 /* Main title */
@@ -130,11 +130,6 @@ nav a:hover {
   transition: all 0.3s ease;
 }
 
-/* Hover effect for interactivity */
-.travelPhilosophy > div:hover {
-  transform: scale(1.03);
-  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.15);
-}
 
 /* Title for each value */
 .travelPhilosophy h3 {
@@ -164,32 +159,32 @@ footer {
   letter-spacing: 0.5px;
   border-top: 1px solid rgba(212, 175, 55, 0.3);
 }
-/* For mobile (max-width: 768px) */
+
 @media (max-width: 768px) {
-  /* Hero section */
+ 
   .hero h1 {
     font-size: 28px; /* Smaller title on mobile */
   }
 
-  /* My Story section */
+ 
   .myStory h2 {
     font-size: 28px; /* Smaller title */
   }
 
   .travelPhilosophy {
-    flex-direction: column; /* Stack items vertically */
+    flex-direction: column; 
   }
 
   .travelPhilosophy > div {
-    flex-basis: 80%; /* Full width on small screens */
-    margin: 10px auto; /* Centered with margin */
+    flex-basis: 80%; 
+    margin: 10px auto; 
   }
 
   .hero p {
-    font-size: 14px; /* Adjust paragraph size */
+    font-size: 14px; 
   }
 
   .myStory p {
-    font-size: 13px; /* Adjust paragraph size */
+    font-size: 13px; 
   }
 }
